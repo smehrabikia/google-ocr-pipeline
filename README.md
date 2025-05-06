@@ -23,23 +23,27 @@ python pipeline.py \
 ```
 
 ## 📂 Project Structure
+
+```
 google_ocr_pipeline/
-├── pipeline.py # Main runner script
-├── pdf_to_images_and_text.py # PDF to images + OCR per page
-├── ocr_helper.py # OCR & formatting logic
-├── requirements.txt # Python dependencies
-├── .gitignore # Files/folders to exclude from Git
-├── README.md # This documentation
-├── credentials/ # Your Google API key (NOT in Git)
-├── data/input/ # Source PDFs/images
-├── output/ # Processed output (optional)
-└── errors.txt # Error log
+├── pipeline.py                 # Main runner script
+├── pdf_to_images_and_text.py  # PDF to images + OCR per page
+├── ocr_helper.py              # OCR & formatting logic
+├── requirements.txt           # Python dependencies
+├── .gitignore                 # Files/folders to exclude from Git
+├── README.md                  # This documentation
+├── credentials/               # Your Google API key (NOT in Git)
+├── data/input/                # Source PDFs/images
+├── output/                    # Processed output (optional)
+└── errors.txt                 # Error log
+```
 
- Requires Python 3.8+
+## 🐍 Installation
 
-Installation
+```bash
 pip install -r requirements.txt
+```
 
+## 📄 License
 
-License
 MIT License – free for personal and commercial use.
