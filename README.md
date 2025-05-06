@@ -20,6 +20,7 @@ python pipeline.py \
   --save_docx --save_txt --save_json \
   --dpi 300 \
   --detection_type DOCUMENT_TEXT_DETECTION
+```
 
 ## 📂 Project Structure
 google_ocr_pipeline/
