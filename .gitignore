@@ -1,0 +1,13 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.log
+errors.txt
+credentials/
+data/input/
+output/
+*.json
+*.docx
+*.txt
+*.jpg
+*.pdf
